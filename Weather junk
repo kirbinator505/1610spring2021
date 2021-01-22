@@ -9,3 +9,5 @@ Monday it is 37 degrees and sunny
 Wednesday it is 27 degrees and sunny
 
 Thursday it is 41 degrees and sunny
+
+Friday it is 43 degrees and cloudy

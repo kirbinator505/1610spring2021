@@ -13,3 +13,5 @@ Thursday it is 41 degrees and sunny
 Friday it is 43 degrees and cloudy
 
 Saturday it is 33 degrees and snowy
+
+Monday it is 23 degrees and sunny

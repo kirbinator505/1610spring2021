@@ -15,3 +15,5 @@ Friday it is 43 degrees and cloudy
 Saturday it is 33 degrees and snowy
 
 Monday it is 23 degrees and sunny
+
+Tuesday it is 33 degrees and partialy cloudy

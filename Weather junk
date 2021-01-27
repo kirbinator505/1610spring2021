@@ -17,3 +17,5 @@ Saturday it is 33 degrees and snowy
 Monday it is 23 degrees and sunny
 
 Tuesday it is 33 degrees and partialy cloudy
+
+Wednesday it is 32 degrees and cloudy

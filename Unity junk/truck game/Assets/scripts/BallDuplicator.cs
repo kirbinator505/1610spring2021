@@ -1,16 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
 public class BallDuplicator : MonoBehaviour
 {
     public GameObject ball;
+    private int _boi = 0;
+
     IEnumerator Start()
     {
-        while (true)
+        while (_boi < 25)
         {
             yield return new WaitForSeconds(0.5f);
             Instantiate(ball);
+            _boi++;
         }
     }
 }
+

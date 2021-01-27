@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball_duplicator : MonoBehaviour
+public class BallDuplicator : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject ball;
+    IEnumerator Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        while (true)
+        {
+            yield return new WaitForSeconds(0.5f);
+            Instantiate(ball);
+        }
     }
 }

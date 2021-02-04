@@ -27,3 +27,5 @@ Friday it is 35 degrees and rainy
 Monday it is 30 degrees and cloudy
 
 Tuesday it is 54 degrees and partialy cloudy
+
+Thursday it is 32 degrees and snowy

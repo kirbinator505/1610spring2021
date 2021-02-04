@@ -7,8 +7,8 @@ public class KeepUp : MonoBehaviour
     public Rigidbody2D ballRigidbody2D;
     private Vector2 direction;
     private Vector2 ydirection;
-    public float forceup = 2f;
-    public float forceside = 1f;
+    public float forceup = 0.2f;
+    public float forceside = 0.01f;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +18,7 @@ public class KeepUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        while (true)
-        {
-            ydirection.y = forceup;
-            ballRigidbody2D.AddForce(ydirection, ForceMode2D.Force);
-        }
+        direction.x = Input.GetAxis("Horizontal") * forceside;
+        ballRigidbody2D.AddForce(direction, ForceMode2D.Force);
     }
 }

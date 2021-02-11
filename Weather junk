@@ -35,3 +35,5 @@ Fridday it is 32 degrees and snowy
 Tuesday it is 44 degrees and cloudy
 
 Wednesday it is 51 degrees and partialy cloudy
+
+Thursday it is 43 degrees and cloudy

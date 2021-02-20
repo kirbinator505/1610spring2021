@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class detection : MonoBehaviour
 {
+    public BoolData detect;
     
     void Start()
     {
@@ -19,10 +20,10 @@ public class detection : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("in");
+        detect.value = true;
     }
     private void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("out");
+        detect.value = false;
     }
 }

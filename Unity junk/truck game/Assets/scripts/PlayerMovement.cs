@@ -22,20 +22,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      /*  if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            ballRigidbody2D.AddForce(-direction, ForceMode2D.Force);
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            ballRigidbody2D.AddForce(direction, ForceMode2D.Force);
-        }
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            ballRigidbody2D.AddForce(ydirection, ForceMode2D.Force);
-        }
-        */
-      direction.x = Input.GetAxis("Horizontal") * speed;
+    direction.x = Input.GetAxis("Horizontal") * speed;
       ballRigidbody2D.AddForce(direction, ForceMode2D.Force);
       
       if (Input.GetButtonDown("Jump"))

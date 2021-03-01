@@ -7,12 +7,10 @@ using UnityEngine.UI;
 public class TextDisplay : MonoBehaviour
 {
     public Text display;
+    public StringData word;
     
     void Update()
     {
-        if (true)
-        {
-            display.text = "lul";
-        }
+        display.text = "You are in the " + word.shape;
     }
 }

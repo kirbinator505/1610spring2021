@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05d66b671cae6944ab811a88b54a1630, type: 3}
-  m_Name: Chosen
+  m_Script: {fileID: 11500000, guid: 4f0f525961fde22448aa336de13684c7, type: 3}
+  m_Name: Capsule
   m_EditorClassIdentifier: 
-  words: {fileID: 0}
+  value: 2

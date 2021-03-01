@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class Selection : MonoBehaviour
 {
     public IntData num;
-    public TextScript text;
+    public Text words;
     public ArrayData[] shape;
     void Update()
     {
-        if ()
+        if (true)
         {
-            text.words.text = "you are in the Hexagon";
+            
         }
     }
 }

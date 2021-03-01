@@ -8,4 +8,5 @@ public class CapsuleBehavior : MonoBehaviour
     {
         num.number = 1;
     }
+    
 }

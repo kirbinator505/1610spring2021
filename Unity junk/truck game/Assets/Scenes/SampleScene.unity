@@ -870,7 +870,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a2a28ca37d4b2d43a5a2200837967e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballRigidbody2D: {fileID: 971813783}
   speed: 3
   jumpForce: 300
 --- !u!1 &1243076847

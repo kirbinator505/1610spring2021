@@ -11,16 +11,20 @@ public class Detection : MonoBehaviour
     private void Update()
     {
         if (num.number == 1)
-        {
-            word.shape = "Capsule";
+        { 
+           word.shape = "the capsule";
         }
         if (num.number == 2)
         {
-            word.shape = "Hexagon";
+           word.shape = "the hexagon";
         }
         if (num.number == 3)
         {
-            word.shape = "Square";
+           word.shape = "the square";
+        }
+        else if (num.number == 0)
+        {
+            word.shape = "nothing";
         }
     }
 }

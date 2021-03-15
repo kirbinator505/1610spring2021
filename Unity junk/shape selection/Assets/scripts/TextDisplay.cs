@@ -11,6 +11,6 @@ public class TextDisplay : MonoBehaviour
     
     void Update()
     {
-        display.text = "You are in the " + word.shape;
+        display.text = "You are in " + word.shape;
     }
 }

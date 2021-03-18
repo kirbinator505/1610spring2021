@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float horizontalinput;
     public float sped = 10.0f;
     public float boundary = 10.0f;
+    public GameObject projectileprefabs;
     void Update()
     {
         horizontalinput = Input.GetAxis("Horizontal");
@@ -18,6 +19,11 @@ public class PlayerMovement : MonoBehaviour
         if (transform.position.x > boundary)
         {
             transform.position = new Vector3(boundary, transform.position.y, transform.position.z);
+        }
+
+        if (Input.GetKeyDown((KeyCode.Space)))
+        {
+            Instantiate(projectileprefabs, transform.position, projectileprefabs.transform.rotation);
         }
     }
 }

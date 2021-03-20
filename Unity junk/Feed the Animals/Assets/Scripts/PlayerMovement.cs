@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float horizontalinput;
     public float sped = 10.0f;
-    public float boundary = 10.0f;
+    public float boundary = 20.0f;
     public GameObject projectileprefabs;
     void Update()
     {

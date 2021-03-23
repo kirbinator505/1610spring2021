@@ -588,8 +588,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalinput: 0
-  sped: 10
-  boundary: 10
+  sped: 20
+  boundary: 20
   projectileprefabs: {fileID: 6762912873550731554, guid: 1b2a4b31130fc934e9b3f61ecd0a5f77,
     type: 3}
 --- !u!1001 &955386710
@@ -830,6 +830,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dog_GermanShepherd_01
       objectReference: {fileID: 0}
+    - target: {fileID: 3266415206788101528, guid: ed262b8c8883eaa4ca12421df7505126,
+        type: 3}
+      propertyPath: speed
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed262b8c8883eaa4ca12421df7505126, type: 3}
 --- !u!1001 &5396207373305097313
@@ -898,6 +903,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8979678058223969275, guid: 6af9d1fff85684444b762ae8411914de,
+        type: 3}
+      propertyPath: speed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af9d1fff85684444b762ae8411914de, type: 3}
@@ -977,6 +987,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3340985650327922993, guid: 44593ccb17502ce4aaacaf7e7a7f1f27,
+        type: 3}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 9037597773984317007, guid: 44593ccb17502ce4aaacaf7e7a7f1f27,
         type: 3}
       propertyPath: m_Name

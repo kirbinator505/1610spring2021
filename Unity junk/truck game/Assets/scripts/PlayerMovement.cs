@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
     direction.x = Input.GetAxis("Horizontal") * speed;
-      ballRigidbody2D.AddForce(direction, ForceMode2D.Force);
+    ballRigidbody2D.AddForce(direction, ForceMode2D.Force);
       
       if (Input.GetButtonDown("Jump") && jumpcount < jumpcountmax)
       {

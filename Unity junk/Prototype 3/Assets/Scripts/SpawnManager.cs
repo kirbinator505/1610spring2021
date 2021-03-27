@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
@@ -8,20 +6,19 @@ public class SpawnManager : MonoBehaviour
 
     private Vector3 spawnPos = new Vector3(25, 0, 0);
     private float startDelay = 2f, repeatRate = 2f;
-    // Start is called before the first frame update
+    private PlayerController playerControllerScript;
+
     void Start()
     {
     InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     void SpawnObstacle()
     {
-        Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
+        if (playerControllerScript.gameover == false)
+        {
+            Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
+        }
     }
 }

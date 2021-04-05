@@ -20,6 +20,7 @@ public class CharacterMover : MonoBehaviour
     {
         movement.Set(speed*Input.GetAxis("Vertical"), ydirection, 0);
 
+
         ydirection += gravity * Time.deltaTime;
 
         if (controller.isGrounded && movement.y < 0)

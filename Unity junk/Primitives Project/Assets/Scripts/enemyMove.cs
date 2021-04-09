@@ -6,7 +6,7 @@ public class enemyMove : MonoBehaviour
 {
     public float speed = 5.0f;
     private Rigidbody objectRB;
-    public float bottomBound = -10f;
+    public float bottomBound = -15f;
     
     // Start is called before the first frame update
     void Start()

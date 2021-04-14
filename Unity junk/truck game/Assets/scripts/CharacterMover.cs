@@ -19,6 +19,7 @@ public class CharacterMover : MonoBehaviour
     void Update()
     {
         movement.Set(speed*Input.GetAxis("Vertical"), ydirection, 0);
+        rotation.Set(speed*Input.GetAxis("Horizontal"), ydirection, 0);
 
 
         ydirection += gravity * Time.deltaTime;
